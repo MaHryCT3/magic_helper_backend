@@ -1,6 +1,7 @@
 ./pycache
 *.pyc
-.env
+.env.dev
+.env.prod
 test.py
 test_db.py
 *.jpg
