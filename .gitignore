@@ -8,6 +8,5 @@ test_db.py
 *.log
 /.git
 ./.mypy_cache
-
-
+.idea
 docs/

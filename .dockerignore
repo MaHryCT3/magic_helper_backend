@@ -1,7 +1,7 @@
 .env*
 .gitignore
-./vscode
+./.vscode
 *.md
 ./pycache
 *.pyc
-*.cfg
+./.mypy_cache
