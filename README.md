@@ -20,7 +20,7 @@ Clone the repository
 ```bash
 git clone https://github.com/MaHryCT3/magic_helper_backend.git
 ```
-Configure **.env.example** and save as **.env**. Detailed information about .env configurations provided in [ENVFILES.md](https://github.com/MaHryCT3/magic_helper_backend/blob/master/ENVFILES.md)
+Configure **.env.example** and save as **.env.prod** or **.env.dev**. Detailed information about .env configurations provided in [ENVFILES.md](https://github.com/MaHryCT3/magic_helper_backend/blob/master/ENVFILES.md)
 
 ## Deploy
 
