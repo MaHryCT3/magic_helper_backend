@@ -10,18 +10,6 @@ services:
       - 5432:5432
     networks:
       - magic_helper_network
-
-  redis:
-    image: redis:7.0.4-alpine
-    container_name: redis
-    volumes:
-      - redis-data:/var/lib/redis/data
-    env_file: ./.env.prod
-    depends_on:
-      - postgres
-    networks:
-      - magic_helper_network
-
   api:
     build:
       context: .
@@ -29,7 +17,7 @@ services:
     container_name: api
     env_file: ./.env.prod
     depends_on:
-      - redis
+      - postgres
     networks:
       - magic_helper_network
 
@@ -52,6 +40,5 @@ networks:
 
 volumes:
   pg-data:
-  redis-data:
 
 

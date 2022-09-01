@@ -9,15 +9,5 @@ services:
     ports:
       - 5432:5432
 
-  redis:
-    image: redis:7.0.4-alpine
-    container_name: redis
-    volumes:
-      - redis-data:/var/lib/redis/data
-    env_file: ../.env.dev
-    ports:
-      - 6379:6379
-
 volumes:
   pg-data:
-  redis-data:

@@ -17,11 +17,3 @@ POSTGRES_USER - Database username (default: postgres)
 POSTGRES_PASSWORD - Database password (default: postgres)
 POSTGRES_DB - Database database name (default: postgres)
 ```
-
-## Redis configurations
-```
-REDIS_HOST - Redis location (default: localhost)
-REDIS_PORT - Redis database port (default: 6379)
-REDIS_PASSWORD - Redis password (default: None)
-REDIS_DB - Redis database name (default: None)
-```
