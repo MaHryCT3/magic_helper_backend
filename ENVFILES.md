@@ -5,6 +5,8 @@ The environment configurations files for the project are located in the **.env.e
 # Aplication configurations
 ```
 LOGGER_LEVEL - Level of logger configuration (default: INFO)
+CLIENT_ID - ID of the vk application (default: None)
+CLIENT_SECRET - Secret of the vk application (default: None)
 ```
 
 # Containers configurations
