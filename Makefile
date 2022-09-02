@@ -20,5 +20,8 @@ clean-data:
 make-migration:
 	alembic revision --autogenerate
 
+run-migration:
+	alembic upgrade head
+
 #FIXME: Добавить переменные для путей до докер компос
 
