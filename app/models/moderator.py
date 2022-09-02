@@ -1,4 +1,3 @@
-from enum import unique
 from sqlalchemy import BigInteger, Integer, Column, Boolean
 from sqlalchemy.orm import relationship
 
