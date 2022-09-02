@@ -1,7 +1,9 @@
 #!/bin/sh
 
-echo "Statring aplication..."
-uvicorn app:app
+echo "Make migration"
+alembic upgrade head
 
-#FIXME: Добавить миграции алембика
+echo "Statring aplication..."
+uvicorn app:app --port 443
+
 
