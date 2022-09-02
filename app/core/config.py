@@ -25,5 +25,9 @@ class Settings(BaseSettings):
             path=f"/{values.get('POSTGRES_DB') or ''}",
         )
 
+    VK_CLIENT_ID: int
+    VK_CLIENT_SECRET: str
+    VK_REDIRECT_URI: str
+
 
 settings = Settings()
